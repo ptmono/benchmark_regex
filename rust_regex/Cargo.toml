@@ -1,0 +1,18 @@
+[package]
+name = "rustlibs"
+version = "0.0.1"
+authors = []
+
+[lib]
+name = "rustlibs"
+crate-type = ["dylib"]
+
+[dependencies.cpython]
+version = "0.4"
+features = ["extension-module"]
+
+[dependencies.regex]
+version = "*"
+
+[dependencies.timeit]
+version = "*"
